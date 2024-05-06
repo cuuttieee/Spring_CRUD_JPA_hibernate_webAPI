@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ProductDetailsPage</title>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="/CDN/jquery-3.7.1.js"></script>
+    <script src="/CDN/bootstrap.js"></script>
+    <script src="/JS/ProductDetails.js"></script>
+    <link href="/CDN/bootstrap.css" rel="stylesheet"/>
+</head>
+<body>
+<div class="container">
+    <label id ="ddtxt">
+        Please Select Product <span id ="txtProduct"></span>
+        <select id="ddlProductID" class="select">
+
+        </select>
+    </label>
+<!--    <div id="deleteButtonContainer"></div>-->
+    <div class="form-controller">
+        <table id="Bdt" style="display: none" class="table table-light table-striped">
+            <thead class="table table-dark">
+            <tr style="font-family: monospace">
+                <th scope="col">SL</th>
+                <th scope="col">ID</th>
+                <th scope="col">Name</th>
+                <th scope="col">Quantity</th>
+                <th scope="col">Price</th>
+                <th scope="col" id="delbtn" style="display: none">Delete</th>
+            </tr>
+            </thead>
+            <tbody style="font-family: Arial, Helvetica, sans-serif">
+            </tbody>
+        </table>
+    </div>
+</div>
+
+</body>
+</html>
